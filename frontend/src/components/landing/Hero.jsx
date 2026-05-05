@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import HERO_IMG from '../../assets/hero-img.png'
 
 const Hero = () => {
     const isAuthenticated = false
@@ -27,7 +26,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="mt-12 sm:mt-16 relative max-w-5xl mx-auto">
-                <img src={HERO_IMG} alt="Invoice App" className="rounded-2xl shadow-2xl shadow-gray-300 border-4 border-gray-200/20" />
+                <img src='/hero.png' alt="Invoice App" className="rounded-2xl shadow-2xl shadow-gray-300 border-4 border-gray-200/20" />
             </div>
         </div>
     </section>
